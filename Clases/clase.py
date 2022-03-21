@@ -4,13 +4,17 @@ class Palindromo():
     def esPalindromo(arg):
         arg = input( )
         
-        if str(arg) == "".join(reversed(arg)) :
+        if str(arg) == "".join(reversed(arg)):
             print("Palíndromo")
         else:
             print("No es Palíndromo")
         
         longitud = len(arg)
-        if longitud % 2 == 0:
-            Palindromo.esPalindromo(arg[1:-1])
+        if longitud < 1:
+            print(True)
         else:
-            print("El argumento introducido no es un palíndromo. ")
+            if arg[0] == arg[-1]:
+                Palindromo.esPalindromo(arg[1:-1])
+            else:
+                print("El argumento introducido no es un palíndromo. ")
+        
