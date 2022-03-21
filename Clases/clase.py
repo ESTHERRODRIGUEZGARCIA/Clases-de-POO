@@ -6,3 +6,6 @@ class Palindromo():
         print("Palíndromo")
     else:
         print("Not Palíndromo")
+
+    if longitud % 2 == 0:
+        
