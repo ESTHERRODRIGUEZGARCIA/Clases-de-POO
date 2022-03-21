@@ -2,7 +2,7 @@
 
 class Palindromo():
     def esPalindromo(arg):
-        arg = input("Introduzca la palabra que desee saber si es un palíndromo. " )
+        arg = input( )
         arg = arg.lower()
         arg = arg.replace(" ", "")
         if str(arg) == "".join(reversed(arg)):
