@@ -9,6 +9,6 @@ def ejercicios():
     elif variable == 2:
         from Clases import instancia
     elif variable == 3:
-        from Clases import A
+        from Clases import puzzle
 
 ejercicios()
