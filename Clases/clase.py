@@ -2,12 +2,12 @@
 
 class Palindromo():
     def esPalindromo(arg):
-        arg = input("Introduce el argumento que desea saber si es un palíndromo: ")
-        if arg =
+        arg = input( )
+        
         if str(arg) == str(arg)[::-1] :
             print("Palíndromo")
         else:
-            print("Not Palíndromo")
+            print("No es Palíndromo")
         
         longitud = len(arg)
         if longitud % 2 == 0:
