@@ -15,7 +15,8 @@ class Palindromo():
             print(True)
         else:
             if arg[0] == arg[-1]:
-                Palindromo.esPalindromo(arg[1:-1])
+                Palindromo.esPalindromo(arg[::-1])
+                print("Es un palíndromo. ")
             else:
                 print("El argumento introducido no es un palíndromo. ")
         
