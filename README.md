@@ -10,20 +10,24 @@ Trabajo realizado por:
 
 # ÍNDICE 
 a. Palíndromo - método de clase
+
 b. Palíndromo - método de instancia
+
 C. Puzzle
-d. Logger
-
-
-a. Palíndromo - método de clase
-
-
-b. Palíndromo - método de instancia
-
-
-c. Puzzle
-
 
 d. Logger
+
+
+
+# Palíndromo - método de clase
+
+
+# Palíndromo - método de instancia
+
+
+# Puzzle
+
+
+# Logger
 
 
