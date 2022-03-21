@@ -1,4 +1,3 @@
-from Clases import Palindromo
 from Clases.Palindromo import *
 
 
@@ -11,3 +10,5 @@ def ejercicios():
         from Clases import instancia
     elif variable == 3:
         from Clases import puzzle
+
+ejercicios()
