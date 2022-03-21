@@ -17,7 +17,7 @@ c. Puzzle
 
 d. Logger
 
-
+***
 
 # Palíndromo - método de clase
 Enunciado: 
