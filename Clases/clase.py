@@ -4,7 +4,7 @@ class Palindromo():
     def esPalindromo(arg):
         arg = input( )
         
-        if str(arg) == str(arg)[::-1] :
+        if str(arg) == "".join(reversed(arg)) :
             print("Palíndromo")
         else:
             print("No es Palíndromo")
