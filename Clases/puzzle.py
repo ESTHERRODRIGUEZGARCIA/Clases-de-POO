@@ -15,3 +15,5 @@ print(z(()))            #tupla vacía
 print(a().y((a,))) 
 print(A.y(aa, (a,z))) 
 print(aa.y((z,1,'z'))) 
+
+# el primer valor será el cero por estar la tupla t vacía
