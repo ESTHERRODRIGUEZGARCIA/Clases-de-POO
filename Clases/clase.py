@@ -6,9 +6,9 @@ class Palindromo():
         arg = arg.lower()
         arg = arg.replace(" ", "")
         if str(arg) == "".join(reversed(arg)):
-            print("Es un palíndromo")
+            print(True)
         else:
-            print("No es palíndromo")
+            print(False)
         
         longitud = len(arg)
         if longitud < 1:
