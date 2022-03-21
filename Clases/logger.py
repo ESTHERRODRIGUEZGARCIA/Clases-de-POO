@@ -3,3 +3,5 @@ class logger():
     def llamada(metodo):
         mensaje= str(input("¿Qué mensaje desea escribir?: "))
         archivo = open(logger)
+        print("---Start log---")
+        print("---End log---")
