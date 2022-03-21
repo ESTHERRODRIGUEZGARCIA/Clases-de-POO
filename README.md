@@ -35,7 +35,7 @@ En esta misma clase Palindromo, añada un atributo que se inicializará en el co
 Enunciado: 
 Adivina qué mensajes se muestran mediante el siguiente código voluntariamente poco comprensible:
 
-''''
+````
 
 class A: 
     def z(self): 
@@ -54,8 +54,8 @@ print(z(()))
 print(a().y((a,))) 
 print(A.y(aa, (a,z))) 
 print(aa.y((z,1,'z'))) 
-''''
 
+````
 
 # Logger
 
