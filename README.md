@@ -149,3 +149,5 @@ class logger():
         archivo.close()
 ````
 UML:
+
+![image](https://user-images.githubusercontent.com/93209324/159491582-8052ecfc-6380-4968-b16c-9b8271379f53.png)
