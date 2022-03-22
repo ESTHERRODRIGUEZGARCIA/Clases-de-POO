@@ -3,8 +3,9 @@
 class Palindromo():
     def esPalindromo(arg):
         arg = input( )
-        arg = arg.lower()
-        arg = arg.replace(" ", "")
+        arg = arg.lower() #texto en minúsculas
+        arg = arg.replace(" ", "") # elimina espacios
+        n, m = 'áéíóúüñÁÉÍÓÚÜÑ', 'aeiouunAEIOUUN' 
         if str(arg) == "".join(reversed(arg)):
             print(True)
         else:
