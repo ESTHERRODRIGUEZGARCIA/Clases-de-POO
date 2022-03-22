@@ -9,11 +9,11 @@ class Palindromo():
         arg = arg.translate(tilde) #elimina tildes
         lista=list(arg)
         listareversa=list(reversed(arg))
-        if str(arg) == "".join(reversed(arg)):
-            print(True)
+        if lista == listareversa:
+            print("True")
             print(arg, " sí es un palíndromo. ")
         else:
             print(False)
             print(arg, " no es un palíndromo. ")
     arg = str(input("Introduce para ver si es palindromo: "))
-        
+    esPalindromo(arg)
