@@ -56,6 +56,17 @@ print(A.y(aa, (a,z)))
 print(aa.y((z,1,'z'))) 
 
 ````
+output:
+
+````
+<class 'Clases.puzzle.A'>
+False
+0
+1
+2
+3
+
+````
 
 # Logger
 Enunciado: 

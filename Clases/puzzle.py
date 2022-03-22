@@ -7,7 +7,7 @@ class A:             #estructura principal
  
 a = A           # vuelve a la clase A
 y = a.z         # sigue formando parte de la clase A por la anterior condición
-print(y(a)) 
+print(y(a))        # me devuelve
 aa = a() #instancia
 print(aa is a()) 
 z = aa.y        #función
