@@ -10,5 +10,7 @@ def ejercicios():
         from Clases import instancia
     elif variable == 3:
         from Clases import puzzle
+    elif variable == 4:
+        from Clases import logger
 
 ejercicios()
