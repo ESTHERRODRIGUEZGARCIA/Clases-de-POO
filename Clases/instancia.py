@@ -7,5 +7,10 @@ class instantcia():
         lista = list(tema)
         resultado = list(reversed(tema))
 
+        if lista == resultado:
+            print("Es palindromo!")
+        else:
+            print("No es palindromo!")
+
 
     tema= str(input())
