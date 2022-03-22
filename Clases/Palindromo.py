@@ -5,7 +5,7 @@ class Palindromo():
         arg = input( )
         arg = arg.lower() #texto en minúsculas
         arg = arg.replace(" ", "") # elimina espacios
-        n, m = 'áéíóúüÁÉÍÓÚÜ', 'aeiouuAEIOUU' 
+        n, m = 'áéíóúüñÁÉÍÓÚÜÑ', 'aeiouunAEIOUUN' 
         if str(arg) == "".join(reversed(arg)):
             print(True)
         else:
