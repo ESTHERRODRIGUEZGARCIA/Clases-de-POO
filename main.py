@@ -1,4 +1,5 @@
 from Clases.Palindromo import *
+from Clases.logger import *
 
 
 def ejercicios():
@@ -11,7 +12,7 @@ def ejercicios():
     elif variable == 3:
         from Clases import puzzle
     elif variable == 4:
-        from Clases import logger
-        
+        logger.llamada()
+
 
 ejercicios()
