@@ -12,8 +12,8 @@ aa = a() #instancia
 print(aa is a()) 
 z = aa.y        #función
 print(z(()))            #tupla vacía, devuelve el valor 0
-print(a().y((a,)))          #tupla formada por 
-print(A.y(aa, (a,z))) 
+print(a().y((a,)))          #tupla que devuelve la longitud 
+print(A.y(aa, (a))) 
 print(aa.y((z,1,'z'))) 
 
 # el primer valor será el cero por estar la tupla t vacía
