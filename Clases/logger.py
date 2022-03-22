@@ -9,3 +9,6 @@ class logger():
         print("---Start log---")
         logging.getLogger(__metodo__)
         print("---End log---")
+
+        logging.warning('Watch out!')  # will print a message to the console
+        logging.info('I told you so')  # will not print anything
