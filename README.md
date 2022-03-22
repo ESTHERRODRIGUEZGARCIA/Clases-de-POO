@@ -56,6 +56,28 @@ Enunciado:
 
 En esta misma clase Palindromo, añada un atributo que se inicializará en el constructor. Añada también un método test() que pruebe si el atributo de la instancia es un palíndromo. Además, al destruir la instancia, muestre el atributo en mayúsculas.
 
+````
+
+class instancia():
+    def Palindromos(tema):
+        a,b= 'áéíóúÁÉÍÓÚüÜÑñ', 'aeiouAEIOUuUnN'
+        tilde = str.maketrans(a,b)
+        tema = tema.lower()
+        tema = tema.replace(" ", "")
+        tema = tema.translate(tilde)
+        print(tema.upper())
+        lista = list(tema)
+        resultadolista= list(reversed(tema))
+        if lista == resultadolista:
+            print("Es palindromo!")
+        else:
+            print("No es palindromo!")
+    tema= str(input("Introduce una numero, palabra o frase para comprobar si es palindromo: "))
+    Palindromos(tema)
+    
+````
+
+
 # Puzzle
 Enunciado: 
 Adivina qué mensajes se muestran mediante el siguiente código voluntariamente poco comprensible:
@@ -97,3 +119,23 @@ False
 Enunciado: 
 Escriba una clase Logger, cuyo objetivo sea escribir un mensaje dado como parámetro en un archivo cada vez que se llame al método log(mensaje). La primera línea del archivo debe ser "--Start log--", seguida de los mensajes recibidos por el método log en la parte superior de un mensaje por línea, y la última línea del archivo, escrita cuando se destruye la instancia de Logger, debe ser "--End log: x log (s) -" donde x es el número de llamadas al método log. Esta clase Logger se utilizará en un método llamada() de una clase Test.
 
+````
+
+import logging
+
+class logger():
+    #objetivo: escribir un mensaje dado como parámetro en un archivo cada vez que se llame al método log(mensaje).
+    def llamada():
+        mensaje= str(input("¿Qué mensaje desea escribir?: "))
+        veces = int(input("¿Cuántas veces desea recibir el mensaje?: "))
+        archivo = open("logger.txt", "a") #add
+        
+
+        archivo.write("---Start log---\n")
+        for i in range(veces):
+            archivo.write(mensaje)
+
+
+        archivo.write("\n---End log---"+ str(veces))
+        archivo.close()
+````
