@@ -12,6 +12,6 @@ class instantcia():
         else:
             print("No es palindromo!")
 
-
+        print(tema.upper())
     tema= str(input("Introduce un numero, palabra o frase para comprobar si es palindromo :"))
     palindromo(tema)
