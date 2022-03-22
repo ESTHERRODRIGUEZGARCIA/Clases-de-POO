@@ -10,7 +10,7 @@ class logger():
         
 
         print("---Start log---")
-        if mensaje 
+        for i in range(veces):
             archivo.write(mensaje)
 
         print("---End log---")
