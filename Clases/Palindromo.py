@@ -7,7 +7,7 @@ class Palindromo():
         arg = arg.replace(" ", "") # elimina espacios
         n, m = 'áéíóúüñÁÉÍÓÚÜÑ', 'aeiouunAEIOUUN' 
         tilde = str.maketrans(n, m)
-        
+        arg = arg.translate(tilde)
         if str(arg) == "".join(reversed(arg)):
             print(True)
         else:
