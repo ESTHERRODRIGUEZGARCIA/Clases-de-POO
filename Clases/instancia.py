@@ -1,5 +1,5 @@
-class instantcia():
-    def palindromo():
+
+def palindromo():
         a,b= 'áéíóúÁÉÍÓÚüÜÑñ', 'aeiouAEIOUnN'
         tilde = str.maketrans(a,b)
         tema = tema.lower()
@@ -13,5 +13,5 @@ class instantcia():
             print("No es palindromo!")
 
         print(tema.upper())
-    tema= str(input("Introduce un numero, palabra o frase para comprobar si es palindromo :"))
-    palindromo(tema)
+tema= str(input("Introduce un numero, palabra o frase para comprobar si es palindromo:  "))
+palindromo(tema)
