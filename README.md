@@ -51,6 +51,10 @@ class Palindromo():
 
 ````
 
+UML:
+
+
+
 # Palíndromo - método de instancia
 Enunciado: 
 
@@ -76,6 +80,8 @@ class instancia():
     Palindromos(tema)
     
 ````
+
+UML:
 
 
 # Puzzle
@@ -115,6 +121,9 @@ False
 
 ````
 
+UML:
+
+
 # Logger
 Enunciado: 
 Escriba una clase Logger, cuyo objetivo sea escribir un mensaje dado como parámetro en un archivo cada vez que se llame al método log(mensaje). La primera línea del archivo debe ser "--Start log--", seguida de los mensajes recibidos por el método log en la parte superior de un mensaje por línea, y la última línea del archivo, escrita cuando se destruye la instancia de Logger, debe ser "--End log: x log (s) -" donde x es el número de llamadas al método log. Esta clase Logger se utilizará en un método llamada() de una clase Test.
@@ -139,3 +148,4 @@ class logger():
         archivo.write("\n---End log---"+ str(veces))
         archivo.close()
 ````
+UML:
