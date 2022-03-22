@@ -7,7 +7,8 @@ class Palindromo():
         arg = arg.lower() #texto en minúsculas
         arg = arg.replace(" ", "") # elimina espacios
         arg = arg.translate(tilde) #elimina tildes
-        
+        lista=list(arg)
+        listareversa=list(reversed(arg))
         if str(arg) == "".join(reversed(arg)):
             print(True)
             print(arg, " sí es un palíndromo. ")
