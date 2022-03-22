@@ -13,7 +13,7 @@ print(aa is a())
 z = aa.y        #función
 print(z(()))            #tupla vacía, devuelve el valor 0
 print(a().y((a,)))          #tupla que devuelve la longitud. Es 1 por estar formada sólo por a
-print(A.y(aa, (a,z))) 
+print(A.y(aa, (a,z)))           #tupla que devuelve la longitud. Es 2 por estar formada tanto por a como por z
 print(aa.y((z,1,'z'))) 
 
 # el primer valor será el cero por estar la tupla t vacía
