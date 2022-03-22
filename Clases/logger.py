@@ -14,7 +14,7 @@ class logger():
             archivo.write(mensaje)
 
 
-        archivo.write("\n---End log---"+ str(veces), "veces")
+        archivo.write("\n---End log---"+ str(veces))
         archivo.close()
 
     
