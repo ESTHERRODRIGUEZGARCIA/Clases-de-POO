@@ -6,6 +6,8 @@ class Palindromo():
         arg = arg.lower() #texto en minúsculas
         arg = arg.replace(" ", "") # elimina espacios
         n, m = 'áéíóúüñÁÉÍÓÚÜÑ', 'aeiouunAEIOUUN' 
+        tilde = str.maketrans(n, m)
+        
         if str(arg) == "".join(reversed(arg)):
             print(True)
         else:
