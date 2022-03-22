@@ -1,5 +1,5 @@
 class instancia():
-    def palindromo():
+    def Palindromo():
         a,b= 'áéíóúÁÉÍÓÚüÜÑñ', 'aeiouAEIOUnN'
         tilde = str.maketrans(a,b)
         tema = tema.lower()
