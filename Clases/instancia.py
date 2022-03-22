@@ -4,3 +4,7 @@ class instantcia():
         tilde = str.maketrans(a,b)
         tema = tema.lower()
         tema = tema.replace(" ", "")
+        lista = list(tema)
+
+
+    tema= str(input())
