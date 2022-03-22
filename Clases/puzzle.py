@@ -6,13 +6,13 @@ class A:             #estructura principal
         return len(t) 
  
 a = A           # vuelve a la clase A
-y = a.z 
+y = a.z         # sigue formando parte de la clase A por la anterior condición
 print(y(a)) 
 aa = a() #instancia
 print(aa is a()) 
 z = aa.y        #función
-print(z(()))            #tupla vacía
-print(a().y((a,))) 
+print(z(()))            #tupla vacía, devuelve el valor 0
+print(a().y((a,)))          #tupla formada por 
 print(A.y(aa, (a,z))) 
 print(aa.y((z,1,'z'))) 
 
