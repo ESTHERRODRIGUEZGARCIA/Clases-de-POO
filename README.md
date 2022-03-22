@@ -84,6 +84,8 @@ class instancia():
 
 UML:
 
+![image](https://user-images.githubusercontent.com/93209324/159494005-3e075882-9310-48f4-a17f-b3cfbddff84a.png)
+
 
 # Puzzle
 Enunciado: 
@@ -123,6 +125,9 @@ False
 ````
 
 UML:
+
+![image](https://user-images.githubusercontent.com/93209324/159494051-39483f82-ddd4-4bbf-aadd-baf1f8ec5a24.png)
+
 
 
 # Logger
