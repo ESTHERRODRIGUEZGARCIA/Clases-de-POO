@@ -5,6 +5,7 @@ class instantcia():
         tema = tema.lower()
         tema = tema.replace(" ", "")
         lista = list(tema)
+        resultado = list(reversed(tema))
 
 
     tema= str(input())
