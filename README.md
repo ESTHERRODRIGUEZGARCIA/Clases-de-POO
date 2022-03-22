@@ -53,6 +53,7 @@ class Palindromo():
 
 UML:
 
+![image](https://user-images.githubusercontent.com/93209324/159493868-792b792e-7639-4c3c-b991-0b229d298cd2.png)
 
 
 # Palíndromo - método de instancia
